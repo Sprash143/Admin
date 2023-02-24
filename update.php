@@ -111,7 +111,6 @@ background-image:url("a.jpg");
 <?php 
 if(isset($_GET['logout'])){
 session_destroy();
-
 header('location:login.php');
 }
 ?>
